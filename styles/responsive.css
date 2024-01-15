@@ -158,7 +158,11 @@
 
     .nav .logo h1 {
         font-size: 1.5rem;
-        margin-left: -15px;
+        margin-left: -5px;
+    }
+
+    .logo img{
+        width: 20%;
     }
 
     .bar {
