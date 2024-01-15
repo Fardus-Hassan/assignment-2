@@ -44,6 +44,7 @@ img {
     color: var(--title-color);
     font-size: 2.5rem;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 
 .sec-des {
@@ -68,14 +69,19 @@ img {
     font-weight: 800;
     border: none;
     border-radius: 8px;
+    margin-top: 24px;
 }
 
 .per-sec {
-    margin: 50px 0;
+    margin-bottom: 100px;
 }
 
 
 /* header */
+
+.header{
+    margin-top: 50px;
+}
 
 .nav,
 .nav>ul,
@@ -202,6 +208,7 @@ select:focus {
     font-size:1rem;
     font-weight: 700;
     height: 52px;
+    margin: 0;
 }
 
 .find .pm-btn i {
@@ -220,4 +227,33 @@ select:focus {
 
 .select .sec-des{
     line-height: 22px;
+}
+
+/* popular-tours */
+
+.popular-tours .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-tours-img img{
+    width:100%;
+}
+
+.tours-text{
+    width: 49%;
+}
+
+.popular-tours .container ul{
+    margin: 24px auto;
+    max-width: 525px;
+}
+
+.popular-tours .container ul li{
+    margin-bottom: 16px;
+    list-style: disc;
+}
+
+.tours-text-foot{
+    color: #5A5A5D;
 }
