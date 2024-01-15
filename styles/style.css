@@ -78,7 +78,7 @@ img {
 /* header */
 
 .nav,
-.nav > ul,
+.nav>ul,
 .nav .logo {
     display: flex;
     justify-content: space-between;
@@ -88,9 +88,10 @@ img {
 .nav ul li a {
     color: #424247;
     font-size: 1.125rem;
+    display: block;
     font-weight: 400;
     margin-left: 42px;
-    transition: all 0.3s;
+    transition: 0.3s;
 }
 
 .nav .logo h1 {
@@ -101,17 +102,122 @@ img {
 }
 
 .travel,
-.nav > ul li:first-child a{
+.nav>ul li:first-child a {
     color: var(--pm-color);
     font-weight: 800;
     margin-left: 0;
 }
 
-.nav ul li a:hover{
-    font-weight: 800;
+.nav ul li a:hover {
     color: var(--pm-color);
+    transform: scale(1.1);
 }
 
 .bar {
     display: none;
+}
+
+select {
+    appearance: none;
+    background: url('../icons/down-chevron.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+.select select,
+.text input,
+.find button {
+    width: 100%;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.select,
+.text input {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    height: 52px;
+    border: none;
+}
+
+.explore form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.explore {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 770px;
+    margin: 50px auto 0;
+    padding: 16px;
+}
+
+.banner {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.banner-container {
+    padding: 105px 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner-text h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0 0 25px;
+}
+
+.banner-text p {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-text {
+    text-align: center;
+    width: 675px;
+    margin: 0 auto;
+}
+
+
+.find .pm-btn {
+    color: #FFF;
+    font-size:1rem;
+    font-weight: 700;
+    height: 52px;
+}
+
+.find .pm-btn i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.text .sec-des::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 500;
+}
+
+.text input:focus{
+    outline: none;
+}
+
+.select .sec-des{
+    line-height: 22px;
 }
