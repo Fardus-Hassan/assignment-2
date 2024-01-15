@@ -79,7 +79,7 @@ img {
 
 /* header */
 
-.header{
+.header {
     margin-top: 50px;
 }
 
@@ -205,7 +205,7 @@ select:focus {
 
 .find .pm-btn {
     color: #FFF;
-    font-size:1rem;
+    font-size: 1rem;
     font-weight: 700;
     height: 52px;
     margin: 0;
@@ -216,84 +216,109 @@ select:focus {
     font-size: 1.2rem;
 }
 
-.text .sec-des::placeholder{
+.text .sec-des::placeholder {
     color: rgba(19, 19, 24, 0.50);
     font-weight: 400;
 }
 
-.text input:focus{
+.text input:focus {
     outline: none;
 }
 
-.select .sec-des{
+.select .sec-des {
     line-height: 22px;
 }
 
 /* popular-tours */
 
-.popular-tours .container{
+.popular-tours .container {
     display: flex;
     justify-content: space-between
 }
 
-.popular-tours-img img{
-    max-width:100%;
+.popular-tours-img img {
+    max-width: 100%;
 }
 
-.tours-text{
+.tours-text {
     max-width: 49%;
 }
 
-.popular-tours .container ul{
+.popular-tours .container ul {
     margin: 24px auto;
     max-width: 525px;
 }
 
-.popular-tours .container ul li{
+.popular-tours .container ul li {
     margin-bottom: 16px;
     list-style: disc;
 }
 
-.tours-text-foot{
+.tours-text-foot {
     color: #5A5A5D;
 }
 
 /* destination */
 
-.destination-title{
+.destination-title {
     text-align: center;
-    width: 645px;
+    max-width: 645px;
     margin: 0 auto;
 }
 
-.mal{
+.mal {
     grid-area: mal;
 }
 
-.indo{
-    grid-area:indo;
+.indo {
+    grid-area: indo;
 }
 
-.sri{
-    grid-area:sri;
+.sri {
+    grid-area: sri;
 }
 
-.n-a{
+.n-a {
     grid-area: n-a;
 }
 
-.kas{
+.kas {
     grid-area: kas;
 }
 
-.bang{
+.bang {
     grid-area: bang;
 }
 
-.band{
+.band {
     grid-area: band;
 }
 
-.img-container{
+.img-container {
     margin-top: 48px;
+    display: grid;
+    gap: 24px;
+    grid-template-areas:
+        "mal  mal  mal  mal  mal  mal  indo  indo  indo  indo  indo  indo"
+        "sri  sri  sri  sri  n-a  n-a  n-a  n-a  n-a  kas  kas  kas"
+        "bang  bang  bang  bang  bang  band  band  band  band  band  band  band"
+    ;
+}
+
+.country-name h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.relative{
+    position: relative;
+}
+
+.country-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

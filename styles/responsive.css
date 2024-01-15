@@ -19,6 +19,10 @@
         gap: 50px;
     }
     
+    .country-name h3 {
+        font-size: 1.5rem;
+    }
+    
 
  
 }
@@ -34,10 +38,39 @@
         display: none;
     }
 
+    /* .img-container img{
+        width: 100%;
+        height: 100% !important;
+        object-fit: cover !important;
+    } */
+
+    /* .img-container {
+        grid-template-areas: 
+        "mal mal mal mal mal mal indo indo indo indo indo idno"
+        "sri sri sri sri sri sri kas kas kas kas kas kas"
+        "n-a n-a n-a n-a n-a n-a n-a n-a n-a n-a n-a n-a"
+        "bang bang bang bang bang bang band band band band band band"
+        ;
+    } */
+
+    
+
 }
 
 @media screen and (max-width:992px) {
 
+    .explore form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner-text{
+        width: 90%;
+    }
+
+    .explore{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
 
     .popular-tours .container{
         flex-direction: column;
@@ -53,64 +86,52 @@
         max-width: 100%;
     }
 
-}
-
-@media screen and (max-width:576px) {
-    
-    .nav .logo h1{
-        font-size: 1.8rem;
-        margin: 0;
+    .img-container {
+        grid-template-areas: 
+           "mal" 
+           "indo"
+           "sri"
+           "n-a"
+           "kas"
+           "bang"
+           "band"
+        ;
     }
 
-    .nav .logo img{
-        width: 18%;
-    }
-
-
-    
-
-}
-
-@media screen and (max-width:992px) {
-    
-    .explore form {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .banner-text{
-        width: 90%;
-    }
-
-    .explore{
-        margin-right: 25px;
-        margin-left: 25px;
+    .img-container img{
+         width: 100%;
+         max-height: 350px;
+         object-fit:fill;
     }
 
 }
 
 @media screen and (max-width:768px) {
 
-
     .banner-text{
         width: 100%;
     }
 
+    .img-container img{
+        width: 100%;
+        max-height: 300px;
+        object-fit:fill;
+   }
+
 }
+
 @media screen and (max-width:576px) {
 
     .explore form {
         grid-template-columns:1fr;
     }
 
-
-}
-
-@media screen and (max-width:768px) {
-
-
-    .banner-text{
+    .img-container img{
         width: 100%;
-    }
+        max-height: 250px;
+        object-fit:fill;
+   }
+    
 
 }
 
@@ -134,6 +155,11 @@
         font-size: 2.5rem;
     }
 
+    .img-container img{
+        width: 100%;
+        max-height: 200px;
+        object-fit:fill;
+   }
 
 }
 
