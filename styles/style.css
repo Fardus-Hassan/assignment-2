@@ -257,3 +257,43 @@ select:focus {
 .tours-text-foot{
     color: #5A5A5D;
 }
+
+/* destination */
+
+.destination-title{
+    text-align: center;
+    width: 645px;
+    margin: 0 auto;
+}
+
+.mal{
+    grid-area: mal;
+}
+
+.indo{
+    grid-area:indo;
+}
+
+.sri{
+    grid-area:sri;
+}
+
+.n-a{
+    grid-area: n-a;
+}
+
+.kas{
+    grid-area: kas;
+}
+
+.bang{
+    grid-area: bang;
+}
+
+.band{
+    grid-area: band;
+}
+
+.img-container{
+    margin-top: 48px;
+}
