@@ -218,7 +218,7 @@ select:focus {
 
 .text .sec-des::placeholder{
     color: rgba(19, 19, 24, 0.50);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .text input:focus{
@@ -233,15 +233,15 @@ select:focus {
 
 .popular-tours .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .popular-tours-img img{
-    width:100%;
+    max-width:100%;
 }
 
 .tours-text{
-    width: 49%;
+    max-width: 49%;
 }
 
 .popular-tours .container ul{

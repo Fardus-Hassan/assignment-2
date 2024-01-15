@@ -1,3 +1,28 @@
+@media screen and (max-width:1280px) {
+    
+     .popular-tours-img{
+        max-width:50%;
+
+    }
+    
+    .tours-text{
+        max-width: 50%;
+    }
+
+    .popular-tours .container ul{
+        margin: 24px auto;
+        max-width:90%; 
+    } 
+
+    .popular-tours .container{
+        align-items: center;
+        gap: 50px;
+    }
+    
+
+ 
+}
+
 @media screen and (max-width:1024px) {
     
     .bar{
@@ -7,6 +32,25 @@
 
     .nav ul{
         display: none;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+
+    .popular-tours .container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .popular-tours-img{
+        max-width:100%;
+
+    }
+    
+    .tours-text{
+        max-width: 100%;
     }
 
 }
