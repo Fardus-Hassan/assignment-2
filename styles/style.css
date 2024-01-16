@@ -478,6 +478,11 @@ input {
     max-width: 100%;
 }
 
+.perfect-place-img{
+    max-width: 50%;
+}
+
+
 .perfect-place-text {
     max-width: 45%;
 }
@@ -686,4 +691,44 @@ input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* effect */
+
+.container img,
+.info,
+.info-3,
+.pack-info,
+.f-icons a i{
+    transition: 0.5s;
+}
+
+.f-icons a i{
+    transition: 0.3s;
+}
+
+.container img:hover{
+    transform: scale(1.05);
+}
+
+.info,
+.info-3{
+    transition: 0.5s;
+}
+
+.info:hover{
+    transform: scale(1.05);
+}
+
+.info-3:hover{
+    transform: scale(1.05);
+}
+
+.pack-info:hover{
+    transform: scale(1.05);
+}
+
+.f-icons a:hover i{
+    transform: scale(1.1);
+    color: var(--pm-color);
 }
