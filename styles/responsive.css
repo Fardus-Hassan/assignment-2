@@ -138,6 +138,17 @@
         max-width: 100%;
     }
 
+    .newsletter .container{
+        flex-direction: column;
+    }
+
+    .news-img {
+        max-width: 100%;
+    }
+
+    .news-img img{
+        width: 100%; 
+    }
 
 }
 
@@ -192,6 +203,33 @@
         font-size:1.2rem;
         line-height: 30px;
     }
+
+    .subscribe{
+        padding: 25px;
+    }
+
+    .news-img > div{
+        padding: 16px;
+        bottom: 40px;
+    }
+
+    .news-img > div h3{
+        font-size: 1.5rem;
+    }
+
+    .news-img > div h4{
+        font-size: 0.875rem;
+    }
+
+    .subscribe form input{
+        margin-top: 16px;
+    }
+
+    .subscribe p{
+        padding-bottom: 16px;
+    }
+
+
 
 
 }
