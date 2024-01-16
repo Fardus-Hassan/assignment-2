@@ -1,5 +1,3 @@
-@media screen and (max-width:1440px) {}
-
 
 @media screen and (max-width:1280px) {
 
@@ -15,11 +13,6 @@
     .popular-tours .container {
         gap: 25px;
     }
-
-    /* .tours-text ul{
-        height: 125px;
-        overflow: auto;
-    } */
 
     .country-name h3 {
         font-size: 1.5rem;
@@ -37,21 +30,6 @@
     .nav ul {
         display: none;
     }
-
-    /* .img-container img{
-        width: 100%;
-        height: 100% !important;
-        object-fit: cover !important;
-    } */
-
-    /* .img-container {
-        grid-template-areas: 
-        "mal mal mal mal mal mal indo indo indo indo indo idno"
-        "sri sri sri sri sri sri kas kas kas kas kas kas"
-        "n-a n-a n-a n-a n-a n-a n-a n-a n-a n-a n-a n-a"
-        "bang bang bang bang bang bang band band band band band band"
-        ;
-    } */
 
 
 
@@ -371,6 +349,7 @@
 @media screen and (max-width:375px) {
 
     .perfect-place-img h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
+        line-height: 18px;
     }
 }
