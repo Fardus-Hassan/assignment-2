@@ -1,25 +1,14 @@
-@media screen and (max-width:1440px) {
-
-
-    
-}
+@media screen and (max-width:1440px) {}
 
 
 @media screen and (max-width:1280px) {
-
-    /* .popular-tours-img {
-        max-width: 50%;
-
-    } */
 
     .popular-tours .container ul {
         margin: 24px auto;
         max-width: 90%;
     }
 
-
-
-    .tours-text{
+    .tours-text {
         width: 50%;
     }
 
@@ -27,11 +16,11 @@
         gap: 25px;
     }
 
-    .tours-text ul{
+    /* .tours-text ul{
         height: 125px;
         overflow: auto;
-    }
- 
+    } */
+
     .country-name h3 {
         font-size: 1.5rem;
     }
@@ -85,7 +74,9 @@
 
     .popular-tours .container {
         flex-direction: column;
-        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
     }
 
     .popular-tours-img {
@@ -94,7 +85,7 @@
     }
 
     .tours-text {
-        max-width: 100%;
+        min-width: 100%;
     }
 
     .img-container {
@@ -106,6 +97,12 @@
             "kas"
             "bang"
             "band"
+        ;
+    }
+
+    .extra-img{
+        grid-template-areas: none
+        ""
         ;
     }
 
@@ -124,7 +121,7 @@
         max-width: 100%;
     }
 
-    .perfect-place .container{
+    .perfect-place .container {
         flex-direction: column;
         align-items: center;
         gap: 24px;
@@ -133,12 +130,12 @@
     .perfect-place-img {
         max-width: 100%;
     }
-    
+
     .perfect-place-text {
         max-width: 100%;
     }
 
-    .newsletter .container{
+    .newsletter .container {
         flex-direction: column;
     }
 
@@ -146,8 +143,8 @@
         max-width: 100%;
     }
 
-    .news-img img{
-        width: 100%; 
+    .news-img img {
+        width: 100%;
     }
 
 }
@@ -168,7 +165,7 @@
     .bg-img-2 {
         margin-top: 24px;
         border-radius: 16px;
-        padding:185px 16px 16px 16px;
+        padding: 185px 16px 16px 16px;
         background-position: bottom;
     }
 
@@ -180,11 +177,11 @@
         flex-wrap: wrap;
     }
 
-    .pack-info{
-        padding:25px;
+    .pack-info {
+        padding: 25px;
     }
-    
-    
+
+
 }
 
 @media screen and (max-width:576px) {
@@ -200,32 +197,32 @@
     }
 
     .perfect-place-img h3 {
-        font-size:1.2rem;
+        font-size: 1.2rem;
         line-height: 30px;
     }
 
-    .subscribe{
+    .subscribe {
         padding: 25px;
     }
 
-    .news-img > div{
+    .news-img>div {
         padding: 16px;
         bottom: 40px;
     }
 
-    .news-img > div h3{
+    .news-img>div h3 {
         font-size: 1.5rem;
     }
 
-    .news-img > div h4{
+    .news-img>div h4 {
         font-size: 0.875rem;
     }
 
-    .subscribe form input{
+    .subscribe form input {
         margin-top: 16px;
     }
 
-    .subscribe p{
+    .subscribe p {
         padding-bottom: 16px;
     }
 
@@ -236,13 +233,33 @@
 
 @media screen and (max-width:475px) {
 
+    .header {
+        margin-top: 24px;
+    }
+
+    .banner-container{
+        padding: 35px 16px;
+    }
+
     .nav .logo h1 {
         font-size: 1.5rem;
         margin-left: -5px;
     }
 
+    .explore{
+        margin: 35px 5px 0;
+    }
+
+    .footer .logo h1{
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
     .logo img {
         width: 20%;
+    }
+    .footer .logo img {
+        width: 40px;
     }
 
     .bar {
@@ -264,21 +281,77 @@
         object-fit: fill;
     }
 
-    .pack-info .sub-sec-des{
+    .pack-info .sub-sec-des {
         max-height: 50px;
         overflow: auto;
     }
 
     .perfect-place-img h3 {
-        font-size:1.125rem;
+        font-size: 1.125rem;
         line-height: 30px;
     }
+
+    .sec-heading {
+        font-size: 1.5rem;
+    }
+
+    .sec-des,
+    .banner-text p {
+        font-size: 0.875rem;
+    }
+
+    .sub-sec-des {
+        font-size: 0.875rem;
+    }
+
+    .pm-btn {
+        padding: 15px 25px;
+        font-size: 1rem;
+        margin-top: 24px;
+        font-weight: 700;
+    }
+
+    .per-sec {
+        margin-bottom: 30px;
+    }
+
+    .info h3,
+    .info-3 h3,
+    .pack-info h3,
+    .subscribe h3 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        margin:16px 0;
+    }
+
+    .country-name h3 {
+        font-size: 1.25rem;
+    }
+
+    .footer{
+        padding: 35px 0;
+    }
+
+    .f-icons{
+        margin-bottom: 24px;
+    }
+
+    .f-text{
+        margin-top: 24px;
+    }
+
+    .f-des{
+        margin-bottom: 24px;
+    }
+    
+
+
 
 }
 
 @media screen and (max-width:375px) {
 
     .perfect-place-img h3 {
-        font-size:1rem;
+        font-size: 1rem;
     }
 }
