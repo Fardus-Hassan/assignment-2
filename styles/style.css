@@ -325,6 +325,11 @@ input {
     ;
 }
 
+/* .img-container img{
+    object-fit: cover;
+    border-radius: 16px;
+} */
+
 .country-name h3 {
     color: #FFF;
     text-align: center;
