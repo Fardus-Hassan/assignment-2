@@ -129,9 +129,11 @@ select {
     background-repeat: no-repeat;
     background-position: right;
     border: none;
+    font-family: 'Mulish', sans-serif;
 }
 
-select:focus {
+select:focus,
+input {
     outline: none;
 }
 
@@ -216,7 +218,8 @@ select:focus {
     font-size: 1.2rem;
 }
 
-.text .sec-des::placeholder {
+::placeholder {
+    font-family: 'Mulish', sans-serif;
     color: rgba(19, 19, 24, 0.50);
     font-weight: 400;
 }
@@ -259,7 +262,7 @@ select:focus {
 }
 
 .tours-text-foot {
-    color: #5A5A5D;
+    color: var(--sub-des);
 }
 
 /* destination */
@@ -349,7 +352,8 @@ select:focus {
 
 .info h3,
 .info-3 h3,
-.pack-info h3 {
+.pack-info h3,
+.subscribe h3 {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
@@ -467,7 +471,7 @@ select:focus {
 }
 
 .perfect-place-text ul li {
-    color: #131318;
+    color: var(--title-color);
     font-size: 1rem;
     font-weight: 700;
     line-height: 26px;
@@ -476,7 +480,83 @@ select:focus {
 .perfect-place-img h3 {
     color: #FFF;
     text-align: center;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 36px;
+}
+
+/* newsletter */
+
+.subscribe {
+    border-radius: 16px;
+    border: 1px solid var(--pm-color);
+    max-width: 475px;
+    padding: 40px;
+}
+
+.subscribe h3 {
+    margin-top: 0;
+}
+
+.subscribe p {
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    padding-bottom: 24px;
+}
+
+.subscribe form input {
+    width: 100%;
+    height: 52px;
+    display: block;
+    margin-top: 24px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 16px 0px 16px 20px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+}
+
+.subscribe form input[ type="submit"] {
+    background-color: var(--pm-color);
+    font-size: 1.25rem;
+}
+
+.newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.news-img img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.news-img>div h3,
+.news-img>div h4 {
+    color: #FFF;
+    text-align: center;
+    font-size:1.5rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.news-img>div h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.news-img{
+    position: relative;
+}
+
+.news-img > div{
+    background-color: var(--pm-color);
+    padding: 16px 50px;
+    position: absolute;
+    bottom:55px;
+    right: 8px;
+    transform: rotate(-20deg);
+    border-radius: 16px;
 }
