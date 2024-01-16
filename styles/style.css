@@ -261,7 +261,8 @@ select:focus {
 /* destination */
 
 .destination-title,
-.about-title {
+.about-title,
+.discount-title {
     text-align: center;
     max-width: 645px;
     margin: 0 auto;
@@ -343,7 +344,8 @@ select:focus {
 }
 
 .info h3,
-.info-3 h3 {
+.info-3 h3,
+.pack-info h3 {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
@@ -358,3 +360,6 @@ select:focus {
 .info-3{
     margin: 24px auto 0;
 }
+
+/* discount */
+
