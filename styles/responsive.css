@@ -7,25 +7,31 @@
 
 @media screen and (max-width:1280px) {
 
-    .popular-tours-img {
+    /* .popular-tours-img {
         max-width: 50%;
 
-    }
-
-    .tours-text {
-        max-width: 50%;
-    }
+    } */
 
     .popular-tours .container ul {
         margin: 24px auto;
         max-width: 90%;
     }
 
-    .popular-tours .container {
-        align-items: center;
-        gap: 50px;
+
+
+    .tours-text{
+        width: 50%;
     }
 
+    .popular-tours .container {
+        gap: 25px;
+    }
+
+    .tours-text ul{
+        height: 125px;
+        overflow: auto;
+    }
+ 
     .country-name h3 {
         font-size: 1.5rem;
     }
@@ -118,6 +124,20 @@
         max-width: 100%;
     }
 
+    .perfect-place .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .perfect-place-img {
+        max-width: 100%;
+    }
+    
+    .perfect-place-text {
+        max-width: 100%;
+    }
+
 
 }
 
@@ -168,6 +188,11 @@
         object-fit: fill;
     }
 
+    .perfect-place-img h3 {
+        font-size:1.2rem;
+        line-height: 30px;
+    }
+
 
 }
 
@@ -206,6 +231,16 @@
         overflow: auto;
     }
 
+    .perfect-place-img h3 {
+        font-size:1.125rem;
+        line-height: 30px;
+    }
+
 }
 
-@media screen and (max-width:375px) {}
+@media screen and (max-width:375px) {
+
+    .perfect-place-img h3 {
+        font-size:1rem;
+    }
+}
