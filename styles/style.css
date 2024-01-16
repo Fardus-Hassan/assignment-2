@@ -145,6 +145,7 @@ select {
 select:focus,
 input {
     outline: none;
+    
 }
 
 
@@ -235,7 +236,7 @@ input {
 }
 
 .text input:focus {
-    outline: none;
+    outline: 1px solid var(--pm-color);
 }
 
 .select .sec-des {
@@ -324,11 +325,6 @@ input {
         "bang  bang  bang  bang  bang  band  band  band  band  band  band  band"
     ;
 }
-
-/* .img-container img{
-    object-fit: cover;
-    border-radius: 16px;
-} */
 
 .country-name h3,
 .e-n>div h3 {
@@ -536,6 +532,10 @@ input {
     font-size: 1rem;
 }
 
+.subscribe form input:focus{
+    outline: 1px solid var(--pm-color);
+}
+
 .subscribe form input[ type="submit"] {
     background-color: var(--pm-color);
     font-size: 1.25rem;
@@ -663,8 +663,6 @@ input {
     ;
     gap: 24px;
     margin-top: 48px;
-    /* height: 100%; */
-    /* object-fit: cover; */
 }
 
 .extra-img img {
@@ -703,11 +701,17 @@ input {
     transition: 0.5s;
 }
 
-.f-icons a i{
+.f-icons a i,
+.select,
+input{
     transition: 0.3s;
 }
 
-.container img:hover{
+.destination img:hover{
+    transform: scale(1.05);
+}
+
+.extra-sec img:hover{
     transform: scale(1.05);
 }
 
@@ -725,10 +729,18 @@ input {
 }
 
 .pack-info:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .f-icons a:hover i{
     transform: scale(1.1);
     color: var(--pm-color);
+}
+
+.select:hover{
+    transform: scale(1.035);
+}
+
+input:hover{
+    transform: scale(1.035);
 }
