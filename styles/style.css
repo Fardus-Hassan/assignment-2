@@ -357,9 +357,81 @@ select:focus {
     background: rgba(41, 206, 246, 0.05);
 }
 
-.info-3{
+.info-3 {
     margin: 24px auto 0;
 }
 
 /* discount */
 
+.package{
+    margin: 48px 0;
+}
+
+.pack-info {
+    max-width: 580px;
+    padding: 50px 75px 50px 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.pack-info ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.price {
+    color: var(--pm-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.pack-info > ul span{
+    display: block;
+    margin-left: 8px;
+    transform: translateY(-1.5px);
+}
+
+.pack-info > ul li{
+    display: flex;
+    align-items:center;
+}
+
+.pack-info > ul li i{
+    color: var(--pm-color);
+    font-size: 1.2rem;
+}
+
+.pack-info h3{
+    margin-top: 25px;
+}
+
+.bg-img,
+.bg-img-2{
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 24px;
+    border-radius: 16px;
+    padding: 55px;
+}
+
+.bg-img > div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg-img-2{
+    background-image: url('../Images/Group\ 40.png');
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn .pm-btn{
+    margin:0;
+}
