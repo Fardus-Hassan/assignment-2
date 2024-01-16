@@ -1,9 +1,7 @@
 @media screen and (max-width:1440px) {
 
-    .about-info {
-        flex-wrap: wrap;
-    }
 
+    
 }
 
 
@@ -31,8 +29,6 @@
     .country-name h3 {
         font-size: 1.5rem;
     }
-
-
 
 }
 
@@ -114,12 +110,12 @@
     }
 
     .about-info {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
     }
 
     .info,
     .info-3 {
-      max-width: 100%;
+        max-width: 100%;
     }
 
 
@@ -137,6 +133,27 @@
         object-fit: fill;
     }
 
+    .bg-img,
+    .bg-img-2 {
+        margin-top: 24px;
+        border-radius: 16px;
+        padding:185px 16px 16px 16px;
+        background-position: bottom;
+    }
+
+}
+
+@media screen and (max-width:665px) {
+
+    .pack-info ul {
+        flex-wrap: wrap;
+    }
+
+    .pack-info{
+        padding:25px;
+    }
+    
+    
 }
 
 @media screen and (max-width:576px) {
@@ -161,7 +178,7 @@
         margin-left: -5px;
     }
 
-    .logo img{
+    .logo img {
         width: 20%;
     }
 
@@ -182,6 +199,11 @@
         width: 100%;
         max-height: 200px;
         object-fit: fill;
+    }
+
+    .pack-info .sub-sec-des{
+        max-height: 50px;
+        overflow: auto;
     }
 
 }
