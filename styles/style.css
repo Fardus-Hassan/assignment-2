@@ -244,12 +244,14 @@ select:focus {
     max-width: 49%;
 }
 
-.popular-tours .container ul {
+.popular-tours .container ul,
+.perfect-place-text ul {
     margin: 24px auto;
     max-width: 525px;
 }
 
-.popular-tours .container ul li {
+.popular-tours .container ul li,
+.perfect-place-text ul li {
     margin-bottom: 16px;
     list-style: disc;
 }
@@ -435,4 +437,24 @@ select:focus {
 
 .btn .pm-btn{
     margin:0;
+}
+
+/* perfect-place */
+
+.perfect-place .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfect-place-img{
+   max-width:52%;
+}
+
+.perfect-place-text{
+    max-width: 45%;
+}
+
+.perfect-place-text ul{
+    max-width: 90%;
+    margin: 24px 0 0 20px;
 }
